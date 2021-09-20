@@ -1,4 +1,13 @@
-
+var price , crust_price, topping_price ;
+var total = 0;
+function getPizza(varietyName, size, crust, toppings, quantity, totalprice) {
+    this.varietyName =varietyName;
+    this.size = size;
+    this.crust = crust;
+    this.toppings = toppings;
+    this.quantity = quantity;
+    this.total = totalprice;
+};
 
    $(document).ready(function () {
 
@@ -336,10 +345,6 @@
     }
     
 
-    
-       
-
-
         $(".checkout").click(function (event) {
             let customerName = $("#customerName").val();
             let customerLocation = $("#customerLocation").val();
@@ -355,6 +360,5 @@
     
         })
 
-    }
-
+    
 });
