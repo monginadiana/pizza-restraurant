@@ -28,36 +28,36 @@
                 switch (size) {
                     case size = "large":
                         price = 900;
-                        if (crust === "crisy") {
+                        if (crust === "Stuffed") {
                             total = (price * quantity) + 250
                             console.log(total);
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "Wrapping") {
                             total = (price * quantity) + 160
-                        } else if (crust === "glutten") {
+                        } else if (crust === "Cheese") {
                             total = (price * quantity) + 220
                         };
 
                         break;
                     case size = "medium":
                         price = 800;
-                        if (crust === "crispy") {
+                        if (crust === "Stuffed") {
                             total = (price * quantity) + 250
 
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "Wrapping") {
                             total = (price * quantity) + 160
 
-                        } else if (crust === "glutten") {
+                        } else if (crust === "Cheese") {
                             total = (price * quantity) + 220
                         };
                         break;
 
                     case size = "small":
                         price = 500;
-                        if (crust === "crispy") {
+                        if (crust === "Stuffed") {
                             total = (price * quantity) + 250
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "Wrapping") {
                             total = (price * quantity) + 180
-                        } else if (crust === "glutten") {
+                        } else if (crust === "Cheese") {
                             total = (price * quantity) + 220
                         };
                         break;
@@ -69,35 +69,35 @@
                 switch (size) {
                     case size = "large":
                         price = 900;
-                        if (crust === "crisy") {
+                        if (crust === "Stuffed") {
                             total = (price * quantity) + 250
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "Wrapping") {
                             total = (price * quantity) + 160
-                        } else if (crust === "glutten") + 220
+                        } else if (crust === "Cheese") + 220
 
                         break;
                     case size = "medium":
                         price = 800;
-                        if (crust === "crispy") {
+                        if (crust === "Stuffed") {
                             total = (price * quantity) + 250
 
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "Wrapping") {
                             total = (price * quantity) + 160
                             console.log(total);
 
 
-                        } else if (crust === "glutten") {
+                        } else if (crust === "Cheese") {
                             total = (price * quantity) + 220
                         };
                         break;
 
                     case size = "small":
                         price = 500;
-                        if (crust === "crispy") {
+                        if (crust === "Stuffed") {
                             total = (price * quantity) + 250
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "Wrapping") {
                             total = (price * quantity) + 180
-                        } else if (crust === "glutten") {
+                        } else if (crust === "Cheese") {
                             total = (price * quantity) + 220
                         };
                         break;
@@ -108,24 +108,24 @@
                 switch (size) {
                     case size = "large":
                         price = 900;
-                        if (crust === "crisy") {
+                        if (crust === "Stuffed") {
                             total = (price * quantity) + 250
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "Wrapping") {
                             total = (price * quantity) + 160
-                        } else if (crust === "Glutten-free") {
+                        } else if (crust === "Cheese") {
                             total = (price * quantity) + 220
                         };
 
                         break;
                     case size = "medium":
                         price = 800;
-                        if (crust === "crispy") {
+                        if (crust === "Stuffed") {
                             total = (price * quantity) + 250
 
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "Wrapping") {
                             total = (price * quantity) + 160
 
-                        } else if (crust === "Glutten-free") {
+                        } else if (crust === "Cheese") {
                             total = (price * quantity) + 220
                         };
                         break;
@@ -134,11 +134,11 @@
 
                     case size = "small":
                         price = 500;
-                        if (crust === "crispy") {
+                        if (crust === "Stuffed") {
                             total = (price * quantity) + 250
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "Wrapping") {
                             total = (price * quantity) + 180
-                        } else if (crust === "glutten") {
+                        } else if (crust === "Cheese") {
                             total = (price * quantity) + 220
                         };
                         break;
@@ -149,35 +149,35 @@
                 switch (size) {
                     case size = "large":
                         price = 1000;
-                        if (crust === "crisy") {
+                        if (crust === "Stuffed") {
                             total = (price * quantity) + 250
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "Wrapping") {
                             total = (price * quantity) + 160
-                        } else if (crust === "glutten") {
+                        } else if (crust === "Cheese") {
                             total = (price * quantity) + 220
                         };
 
                         break;
                     case size = "medium":
                         price = 800;
-                        if (crust === "crispy") {
+                        if (crust === "Stuffed") {
                             total = (price * quantity) + 250
 
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "Wrapping") {
                             total = (price * quantity) + 160
 
-                        } else if (crust === "glutten") {
+                        } else if (crust === "Cheese") {
                             total = (price * quantity) + 220
                         };
                         break;
 
                     case size = "small":
                         price = 500;
-                        if (crust === "crispy") {
+                        if (crust === "Stuffed") {
                             total = (price * quantity) + 250
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "Wrapping") {
                             total = (price * quantity) + 180
-                        } else if (crust === "glutten") {
+                        } else if (crust === "Cheese") {
                             total = (price * quantity) + 220
                         };
                         break;
@@ -188,35 +188,35 @@
                 switch (size) {
                     case size = "large":
                         price = 1000;
-                        if (crust === "crisy") {
+                        if (crust === "Stuffed") {
                             total = (price * quantity) + 250
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "Wrapping") {
                             total = (price * quantity) + 160
-                        } else if (crust === "glutten") {
+                        } else if (crust === "Cheese") {
                             total = (price * quantity) + 220
                         };
 
                         break;
                     case size = "medium":
                         price = 800;
-                        if (crust === "crispy") {
+                        if (crust === "Stuffed") {
                             total = (price * quantity) + 250
 
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "Wrapping") {
                             total = (price * quantity) + 160
 
-                        } else if (crust === "glutten") {
+                        } else if (crust === "Cheese") {
                             total = (price * quantity) + 220
                         };
                         break;
 
                     case size = "small":
                         price = 500;
-                        if (crust === "crispy") {
+                        if (crust === "Stuffed") {
                             total = (price * quantity) + 250
-                        } else if (crust === "stuffed") {
+                        } else if (crust === "Wrapping") {
                             total = (price * quantity) + 180
-                        } else if (crust === "glutten") {
+                        } else if (crust === "Cheese") {
                             total = (price * quantity) + 220
                         };
                         break;
@@ -227,36 +227,36 @@
                 switch (size) {
                     case size = "large":
                         price = 1000;
-                        if (crust === "crisy") {
-                            total = (price * quantity) + 250
-                        } else if (crust === "stuffed") {
-                            total = (price * quantity) + 160
-                        } else if (crust === "glutten") {
-                            total = (price * quantity) + 220
+                        if (crust === "Stuffed") {
+                            total = (price * quantity) + 110
+                        } else if (crust === "Wrapping") {
+                            total = (price * quantity) + 90
+                        } else if (crust === "Cheese") {
+                            total = (price * quantity) + 100
                         };
 
                         break;
                     case size = "medium":
                         price = 800;
-                        if (crust === "crispy") {
-                            total = (price * quantity) + 250
+                        if (crust === "Stuffed") {
+                            total = (price * quantity) + 110
 
-                        } else if (crust === "stuffed") {
-                            total = (price * quantity) + 160
+                        } else if (crust === "Wrapping") {
+                            total = (price * quantity) + 90
 
-                        } else if (crust === "glutten") {
-                            total = (price * quantity) + 220
+                        } else if (crust === "Cheese") {
+                            total = (price * quantity) + 100
                         };
                         break;
 
                     case size = "small":
                         price = 500;
-                        if (crust === "crispy") {
-                            total = (price * quantity) + 250
-                        } else if (crust === "stuffed") {
-                            total = (price * quantity) + 180
-                        } else if (crust === "glutten") {
-                            total = (price * quantity) + 220
+                        if (crust === "Stuffed") {
+                            total = (price * quantity) + 110
+                        } else if (crust === "Wrapping") {
+                            total = (price * quantity) + 90
+                        } else if (crust === "Cheese") {
+                            total = (price * quantity) + 100
                         };
                         break;
                 }
