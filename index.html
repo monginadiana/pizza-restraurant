@@ -167,118 +167,110 @@
         </div>   
     </div>
     </section>
-    <section class="fourth" id="order">
+   
+    <section class="sec-4" id="section4">
+        <h2>Order</h2>
         <div class="container">
-            <div class="makeorder">
-                <h2> <span class="bolder-colored">Order</span>&ensp;<span class="bold-colored">Here</span> </h2>
-            </div>
-            <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6">
-                    <div class="jumbotron">
-                        <form id="orders">
-                            <div class="form">
-                                <label for="name">Your Name:</label>
-                                <input type="text" class="form-control" id="name" placeholder="Name..." pattern="[a-zA-Z ]+" required>
-                            </div>
-                            <h3>Kindly pick the following:</h3>
-                            <div class="form">
-                                <label for="pizza-variety">Pizza variety</label>
-                                <select class="form-control" id="pizzaVariety" required>
-                                    <option>Pepporini</option>
-                                    <option>Mushroom</option>
-                                    <option>Spontini</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="Size">Pizza Size</label>
-                                <select class="form-control" id="Size" required>
-                                    <option>Small</option>
-                                    <option>Medium</option>
-                                    <option>large</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="crust">Pizza Crust</label>
-                                <select class="form-control" id="crust" required>
-                                    <option>Stuffed</option>
-                                    <option>Wrapping</option>
-                                    <option>Cheese</option>
-                                    <option>Thin crust</option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="Toppings">Pizza Toppings</label>
-                                <select class="form-control" id="Toppings" required>
-                                    <option value="Spinach">Spinach @ 350</option>
-                                    <option value="Extra cheese">ExtraCheese @ 150</option>
-                                    <option value="pineapple">pineapple @ 250</option>
-                                    <option value="Onions">Onions @ 50</option>
-                                    <option value="Sausages">Sausages @ 100</option>
-                                </select>
-                                    
-                            </div>
-                            <br>
-                            <div class="form-group">
-                                <label for="total-number">How many pieces</label>
-                                <input type="number" id="total" name="total"  placeholder="totalnumber" min="1">
-                            </div>
-                            <br>
-                            <button class="form-control proceed">proceed</button>
-                            <div class="d-flex">
-                                <button class="form-control delivery">delivery</button>
-                                <button class="form-control pick">pick yourself</button>
-                            </div>
-                            
-                        </form> 
-                    </div> 
-                </div>  
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <form action="" id="form1" class="form1">
-                <h3>Give Us Your Location Details</h3>
-                <label for="FullNames">Full names</label><br>
-                <input type="text" class="form-control" id="YourName" placeholder="name" required><br>
-                <label for="location">Location</label><br>
-                <input type="text" class="form-control" id="YourLocation" placeholder="Give us your location"
-                    required><br>
-                <label for="contactno">Contact</label><br>
-                <input type="text" placeholder="phone number" id="Your Number" class="form-control" max="10"
-                    required><br>
+            <div class="row variety">
+                <div class="col-lg-6 form">
+                    <form action="">
+                        <label for="variety">Pick your poison</label>
+                        <select name="variety" class="form-control" id="variety" onchange="varietySelectChange()">
+                            <option value="pepperoni">Pepperoni</option>
+                            <option value="spontini">Spontini</option>
+                            <option value="Mexican">Mexican</option>
+                            <option value="marghareti">marghareti</option>
+                            <option value="Bianca">Bianca</option>
+                            <option value="Mushroom">Mushroom</option>
+                        </select><br>
 
-                <button class="form-control checkout">checkout</button>
-            </form>
-            <br>
-            <table class="table table-dark table-hover">
-                <thead>
-                    <tr>
-                        <th scope="col">Variety</th>
-                        <th scope="col">size</th>
-                        <th scope="col">crust</th>
-                        <th scope="col">toppings</th>
-                        <th scope="col">Total Number</th>
-                        <th scope="col">total</th>
-                    </tr>
-                </thead>
-                <tbody id="data">
-                    <tr>
-                        <td id="nameofpizza"></td>
-                        <td id="sizeofpizza"></td>
-                        <td id="crustforpizza"></td>
-                        <td id="toppingsforpizza"></td>
-                        <td id="totalnumberofpizza"></td>
-                        <td id="totalAmount"></td>
+                        <label for="size">Size</label>
+                        <select name="size" class="form-control" id="size" onchange="sizeSelectChange()">
+                            <option value="large">large</option>
+                            <option value="medium">medium</option>
+                            <option value="small">small</option>
+                        </select><br>
 
-                    </tr>
+                        <label for="crust">Crust</label><br>
+                        <select type="" name="crust" class="form-control" id="crust" onchange="crustSelectChange()">
+                            <option value="crispy">Crispy</option>
+                            <option value="stuffed">Stuffed</option>
+                            <option value="glutten">Glutten-free</option>
+                        </select><br>
 
-                </tbody>
-            </table>
-            <div id=Message-displayed>
+                        <label for="toppings">Toppings</label>
+                        <select name="toppings" class="form-control" id="toppings" onchange="toppingsSelectChange()">
+                            <option value="pineapple">pineapple @ 150</option>
+                            <option value="tomato">Tomato @ 120</option>
+                            <option value="avocado">Avocado @ 120</option><br>
+                            <option value="beef">beef @ 180</option>
+                            <option value="bread">bread scrambles @ 150</option>
+                            <option value="chicken">chicken scrambles @ 170</option><br>
+
+                        </select><br>
+
+                        <label for="quantity">quantity</label>
+                        <input type="number" name="quantity" class="form-control" id="quantity" min="1"
+                            onchange="quantitySelectChange()" placeholder="0"><br>
+
+                        <button class="form-control addCart">Add to Cart </button>
+                        <div class="d-flex">
+                            <button class="form-control pick-delivery">delivery</button>
+                            <button class="form-control pick">pick up</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <form action="" id="form2" class="form2">
+                        <h5>Enter your location details</h5>
+                        <img src="./assets/—Pngtree—delivery boy with mask riding_5354632.png" height="100px"
+                            width="100px" alt=""><br>
+                        <label for="fullNames">full names</label><br>
+                        <input type="text" class="form-control" id="customerName" placeholder="name" required><br>
+                        <label for="location">Location</label><br>
+                        <input type="text" class="form-control" id="customerLocation" placeholder="Enter your location"
+                            required><br>
+                        <label for="tel">tel</label><br>
+                        <input type="text" placeholder="phone number" id="customerTel" class="form-control" max="10"
+                            required><br>
+
+                        <button class="form-control checkout">checkout</button>
+                    </form>
+
+
+                    <table class="table table-dark table-hover">
+                        <thead>
+                            <tr>
+                                <!-- <th scope="col">#</th> -->
+                                <th scope="col">pizza</th>
+                                <th scope="col">size</th>
+                                <th scope="col">crust</th>
+                                <th scope="col">toppings</th>
+                                <th scope="col">quantity</th>
+                                <th scope="col">total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="receipt">
+                            <tr>
+                                <!-- <th scope="row">1</th> -->
+                                <!-- <td id="no:"></td> -->
+                                <td id="varietyname"></td>
+                                <td id="pizzasize"></td>
+                                <td id="pizzacrust"></td>
+                                <td id="pizzatoppings"></td>
+                                <td id="pizzaquantity"></td>
+                                <td id="total"></td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div id=customerMessage>
+
+                    </div>
+                </div>
 
             </div>
-        </div>
-                    
     </section>
     <!-- end of third section -->
     <footer>
@@ -301,5 +293,5 @@
         </div>             
     </footer>   
 </body>
-<script type=text/javascript src="js/delani.js"></script>
+<script type=text/javascript src="js/index.js"></script>
 </html>
