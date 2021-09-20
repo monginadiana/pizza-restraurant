@@ -156,23 +156,24 @@ switch(size){
       default:
         console.log("not selected"); 
     }
-    switch (toppings) {
-        case toppings = "pineapple":
-            total = total + 150;
+    switch (Toppings) {
+        case Toppings = "Spinach":
+            Toppings_price = 350;
             break;
-        case toppings = "tomato":
-            total = total + 120;
+        case Toppings = "Extra-cheese":
+            Toppings_price =  150;
             break;
-        case toppings = "avocado":
-            total = total + 120;
+        case Toppings = "pineapples":
+            Toppings_price =  250;
             break;
-        case toppings = "beef":
-            total = total + 180;
+        case Toppings = "Onions":
+            Toppings_price =  50;
             break;
-        case toppings = "chicken":
-            total = total + 170;
-            break;
-        case toppings = "bread":
-            total = total + 150;
+        case Toppings = "Sausages":
+            Toppings_price = 100;
             break;
     }
+    total = price + crust_price + Toppings_price;
+    console.log(total);
+    var checkoutTotal =0;
+    checkoutTotal = checkoutTotal + total;
