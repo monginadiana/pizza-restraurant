@@ -18,6 +18,7 @@
         let size = $("#size option:selected").val();
         let quantity = $("#quantity").val();
         let total = 0;
+       
 
         
 
@@ -29,36 +30,36 @@
                     case size = "large":
                         price = 900;
                         if (crust === "Stuffed") {
-                            total = (price * quantity) + 250
+                            total = (price * quantity) + 110
                             console.log(total);
                         } else if (crust === "Wrapping") {
-                            total = (price * quantity) + 160
+                            total = (price * quantity) + 90
                         } else if (crust === "Cheese") {
-                            total = (price * quantity) + 220
+                            total = (price * quantity) + 100
                         };
 
                         break;
                     case size = "medium":
-                        price = 800;
+                        price = 600;
                         if (crust === "Stuffed") {
-                            total = (price * quantity) + 250
+                            total = (price * quantity) + 110
 
                         } else if (crust === "Wrapping") {
-                            total = (price * quantity) + 160
+                            total = (price * quantity) + 90
 
                         } else if (crust === "Cheese") {
-                            total = (price * quantity) + 220
+                            total = (price * quantity) + 100
                         };
                         break;
 
                     case size = "small":
-                        price = 500;
+                        price = 400;
                         if (crust === "Stuffed") {
-                            total = (price * quantity) + 250
+                            total = (price * quantity) + 110
                         } else if (crust === "Wrapping") {
-                            total = (price * quantity) + 180
+                            total = (price * quantity) + 90
                         } else if (crust === "Cheese") {
-                            total = (price * quantity) + 220
+                            total = (price * quantity) + 100
                         };
                         break;
                 }
@@ -70,35 +71,35 @@
                     case size = "large":
                         price = 900;
                         if (crust === "Stuffed") {
-                            total = (price * quantity) + 250
+                            total = (price * quantity) + 110
                         } else if (crust === "Wrapping") {
-                            total = (price * quantity) + 160
-                        } else if (crust === "Cheese") + 220
+                            total = (price * quantity) + 90
+                        } else if (crust === "Cheese") + 100
 
                         break;
                     case size = "medium":
-                        price = 800;
+                        price = 600;
                         if (crust === "Stuffed") {
-                            total = (price * quantity) + 250
+                            total = (price * quantity) + 110
 
                         } else if (crust === "Wrapping") {
-                            total = (price * quantity) + 160
+                            total = (price * quantity) + 90
                             console.log(total);
 
 
                         } else if (crust === "Cheese") {
-                            total = (price * quantity) + 220
+                            total = (price * quantity) + 100
                         };
                         break;
 
                     case size = "small":
-                        price = 500;
+                        price = 400;
                         if (crust === "Stuffed") {
-                            total = (price * quantity) + 250
+                            total = (price * quantity) + 110
                         } else if (crust === "Wrapping") {
-                            total = (price * quantity) + 180
+                            total = (price * quantity) + 90
                         } else if (crust === "Cheese") {
-                            total = (price * quantity) + 220
+                            total = (price * quantity) + 100
                         };
                         break;
                 }
@@ -109,37 +110,37 @@
                     case size = "large":
                         price = 900;
                         if (crust === "Stuffed") {
-                            total = (price * quantity) + 250
+                            total = (price * quantity) + 110
                         } else if (crust === "Wrapping") {
-                            total = (price * quantity) + 160
+                            total = (price * quantity) + 90
                         } else if (crust === "Cheese") {
-                            total = (price * quantity) + 220
+                            total = (price * quantity) + 100
                         };
 
                         break;
                     case size = "medium":
-                        price = 800;
+                        price = 600;
                         if (crust === "Stuffed") {
-                            total = (price * quantity) + 250
+                            total = (price * quantity) + 110
 
                         } else if (crust === "Wrapping") {
-                            total = (price * quantity) + 160
+                            total = (price * quantity) + 90
 
                         } else if (crust === "Cheese") {
-                            total = (price * quantity) + 220
+                            total = (price * quantity) + 100
                         };
                         break;
                         totalprice = total;
 
 
                     case size = "small":
-                        price = 500;
+                        price = 400;
                         if (crust === "Stuffed") {
-                            total = (price * quantity) + 250
+                            total = (price * quantity) + 110
                         } else if (crust === "Wrapping") {
-                            total = (price * quantity) + 180
+                            total = (price * quantity) + 90
                         } else if (crust === "Cheese") {
-                            total = (price * quantity) + 220
+                            total = (price * quantity) + 100
                         };
                         break;
                 }
@@ -148,37 +149,37 @@
             case VarietyName = "Marghareti":
                 switch (size) {
                     case size = "large":
-                        price = 1000;
+                        price = 900;
                         if (crust === "Stuffed") {
-                            total = (price * quantity) + 250
+                            total = (price * quantity) + 110
                         } else if (crust === "Wrapping") {
-                            total = (price * quantity) + 160
+                            total = (price * quantity) + 90
                         } else if (crust === "Cheese") {
-                            total = (price * quantity) + 220
+                            total = (price * quantity) + 100
                         };
 
                         break;
                     case size = "medium":
-                        price = 800;
+                        price = 600;
                         if (crust === "Stuffed") {
-                            total = (price * quantity) + 250
+                            total = (price * quantity) + 110
 
                         } else if (crust === "Wrapping") {
-                            total = (price * quantity) + 160
+                            total = (price * quantity) + 90
 
                         } else if (crust === "Cheese") {
-                            total = (price * quantity) + 220
+                            total = (price * quantity) + 100
                         };
                         break;
 
                     case size = "small":
-                        price = 500;
+                        price = 400;
                         if (crust === "Stuffed") {
-                            total = (price * quantity) + 250
+                            total = (price * quantity) + 110
                         } else if (crust === "Wrapping") {
-                            total = (price * quantity) + 180
+                            total = (price * quantity) + 90
                         } else if (crust === "Cheese") {
-                            total = (price * quantity) + 220
+                            total = (price * quantity) + 100
                         };
                         break;
                 }
@@ -187,37 +188,37 @@
             case varietyName = "Bianca":
                 switch (size) {
                     case size = "large":
-                        price = 1000;
+                        price = 900;
                         if (crust === "Stuffed") {
-                            total = (price * quantity) + 250
+                            total = (price * quantity) + 110
                         } else if (crust === "Wrapping") {
-                            total = (price * quantity) + 160
+                            total = (price * quantity) + 90
                         } else if (crust === "Cheese") {
-                            total = (price * quantity) + 220
+                            total = (price * quantity) + 100
                         };
 
                         break;
                     case size = "medium":
-                        price = 800;
+                        price = 600;
                         if (crust === "Stuffed") {
-                            total = (price * quantity) + 250
+                            total = (price * quantity) + 110
 
                         } else if (crust === "Wrapping") {
-                            total = (price * quantity) + 160
+                            total = (price * quantity) + 90
 
                         } else if (crust === "Cheese") {
-                            total = (price * quantity) + 220
+                            total = (price * quantity) + 100
                         };
                         break;
 
                     case size = "small":
-                        price = 500;
+                        price = 400;
                         if (crust === "Stuffed") {
-                            total = (price * quantity) + 250
+                            total = (price * quantity) + 110
                         } else if (crust === "Wrapping") {
-                            total = (price * quantity) + 180
+                            total = (price * quantity) + 90
                         } else if (crust === "Cheese") {
-                            total = (price * quantity) + 220
+                            total = (price * quantity) + 100
                         };
                         break;
                 }
@@ -226,7 +227,7 @@
             case varietyName = "Mushroom":
                 switch (size) {
                     case size = "large":
-                        price = 1000;
+                        price = 900;
                         if (crust === "Stuffed") {
                             total = (price * quantity) + 110
                         } else if (crust === "Wrapping") {
@@ -237,7 +238,7 @@
 
                         break;
                     case size = "medium":
-                        price = 800;
+                        price = 600;
                         if (crust === "Stuffed") {
                             total = (price * quantity) + 110
 
@@ -250,7 +251,7 @@
                         break;
 
                     case size = "small":
-                        price = 500;
+                        price = 400;
                         if (crust === "Stuffed") {
                             total = (price * quantity) + 110
                         } else if (crust === "Wrapping") {
@@ -335,14 +336,7 @@
     }
     
 
-    function getPizza(varietyName, size, crust, toppings, quantity, totalprice) {
-        this.varietyName =varietyName;
-        this.size = size;
-        this.crust = crust;
-        this.toppings = toppings;
-        this.quantity = quantity;
-        this.total = totalprice;
-
+    
        
 
 
@@ -350,12 +344,12 @@
             let customerName = $("#customerName").val();
             let customerLocation = $("#customerLocation").val();
             let customerTel = $("#customerTel").val();
-            let totalCost = totalprice + 250;
+            let totalCost = totalprice + 100;
             $("#form2").toggle();
                 
 
 
-                $("#customerMessage").append(customerName + ' ' + "your delivery request has been received and will be deliverd at " + customerLocation + ", once the food arrives you will be contacted on this number " + customerTel + " your total will be " + totalCost + " plus delivery fee thankyou for shopping with easy pizzy ");
+                $("#customerMessage").append(customerName + ' ' + "We are happy to recieve your order, your package will be delivered in an hour's time at " + customerLocation + ", Once we get you the package, you will be contacted throughu" + customerTel + " your spending will be " + totalCost + " and the delivery fee. Enjoy your pizza, Hope you come back soon.");
                
             event.preventDefault();
     
