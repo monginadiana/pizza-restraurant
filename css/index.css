@@ -21,6 +21,9 @@ body{
 }
 .section4{
     background-image: url(../Assets/imag4.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
 }   
 #navbar a {
     float: right;
