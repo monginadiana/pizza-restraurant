@@ -19,9 +19,6 @@
         let quantity = $("#quantity").val();
         let total = 0;
 
-        
-
-        
 
         console.log(varietyName);
 
