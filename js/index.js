@@ -1,13 +1,4 @@
-var price , crust_price, topping_price ;
-var total = 0;
-function getPizza(varietyName, size, crust, toppings, quantity, totalprice) {
-    this.varietyName =varietyName;
-    this.size = size;
-    this.crust = crust;
-    this.toppings = toppings;
-    this.quantity = quantity;
-    this.total = totalprice;
-};
+
 
    $(document).ready(function () {
 
@@ -27,7 +18,8 @@ function getPizza(varietyName, size, crust, toppings, quantity, totalprice) {
         let size = $("#size option:selected").val();
         let quantity = $("#quantity").val();
         let total = 0;
-       
+
+        
 
         
 
@@ -293,8 +285,9 @@ function getPizza(varietyName, size, crust, toppings, quantity, totalprice) {
                 total = total + 150;
                 break;
         }
+        
         console.log(total);
-
+      
         let newOrder = new getPizza(varietyName, size, crust, toppings, quantity, total);
         console.log(varietyName);
 
@@ -345,6 +338,17 @@ function getPizza(varietyName, size, crust, toppings, quantity, totalprice) {
     }
     
 
+    function getPizza(varietyName, size, crust, toppings, quantity, totalprice) {
+        this.varietyName =varietyName;
+        this.size = size;
+        this.crust = crust;
+        this.toppings = toppings;
+        this.quantity = quantity;
+        this.total = totalprice;
+
+       
+
+
         $(".checkout").click(function (event) {
             let customerName = $("#customerName").val();
             let customerLocation = $("#customerLocation").val();
@@ -360,5 +364,6 @@ function getPizza(varietyName, size, crust, toppings, quantity, totalprice) {
     
         })
 
-    
+    }
+
 });
