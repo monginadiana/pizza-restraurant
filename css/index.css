@@ -7,11 +7,11 @@ body{
     padding: 0;
 }
 .background{
-    background-image: url("../Assets/background.peg");
+    background-image: url("../Assets/background.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center ;
-   
+
 }
 #navbar.logo>img{
     border-radius: 100%;
@@ -25,9 +25,7 @@ body{
     padding-right: 20px;
     text-decoration: none;
     font-weight: 600;
-    
-    
-  }
+}
 .background >h1{
     color: white;
     text-align: center;
@@ -36,22 +34,17 @@ body{
     font-style: italic;
     padding-top: 80px;
     
-
 }
 .background>p{
     color: white;
     text-align: center;
     padding-bottom: 80px;
   
-    
 }
-
-
 .second{
     height: 100%;
     width: 100%;
     background-color: orange;
-
 }
 .second.h2{
     color:black;
@@ -65,11 +58,6 @@ body{
     font-style: italic;
     padding-top: 100px;
 }
-/* .pic1{
-    margin-left: 10px;
-    height: 100%;
-    width: 100%;
-} */
 .types{
     text-align: center;
     width: 100%;
@@ -79,8 +67,7 @@ body{
 }
 .type >span{
     font-size:40px ;
-    color:orange;
-  
+    color:orange;  
 }
 .menu1{
     width: 100%;
