@@ -266,24 +266,19 @@
 
         };
         switch (toppings) {
-            case toppings = "pineapple":
-                total = total + 150;
+            case toppings = "Extracheese":
+                total = total + 300;
                 break;
-            case toppings = "tomato":
-                total = total + 120;
+            case toppings = " Sausage":
+                total = total + 70;
                 break;
-            case toppings = "avocado":
-                total = total + 120;
+            case toppings = "Bacon":
+                total = total + 100;
                 break;
-            case toppings = "beef":
-                total = total + 180;
+            case toppings = "Blackolives":
+                total = total + 100;
                 break;
-            case toppings = "chicken":
-                total = total + 170;
-                break;
-            case toppings = "bread":
-                total = total + 150;
-                break;
+            
         }
         
         console.log(total);
