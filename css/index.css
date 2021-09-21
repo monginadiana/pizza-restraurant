@@ -20,14 +20,14 @@ body{
 #navbar a {
     float: right;
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding-right: 20px;
     text-decoration: none;
     font-weight: 600;
 }
 .background >h1{
-    color: white;
+    color: black;
     text-align: center;
     font-size: 80px;
     font-weight: bold;
@@ -36,9 +36,10 @@ body{
     
 }
 .background>p{
-    color: white;
+    color: black;
     text-align: center;
     padding-bottom: 80px;
+    font-size: 20px;
   
 }
 .second{
@@ -106,6 +107,7 @@ footer{
 button{
     text-align: center;
     font-size: 20PX;
+    padding-bottom: 20px;
 }
 .background a button{
     color: orange;
