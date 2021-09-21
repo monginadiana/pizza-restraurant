@@ -280,20 +280,15 @@
                 break;
             
         }
-        
         console.log(total);
       
         let newOrder = new getPizza(varietyName, size, crust, toppings, quantity, total);
         console.log(varietyName);
 
-        
-
         $("#receipt").append('<tr><td id="pizzaname">' + newOrder.varietyName + '</td><td id="pizzasize">' +
             newOrder.size + '</td><td id="pizzacrust">' + newOrder.crust + '</td><td id="pizzatoppings">' + newOrder.toppings + '</td><td id="pizzaquantity">' + newOrder.quantity + '</td><td id="total">' + newOrder.total + '</td></tr>');
 
         event.preventDefault();
-
-
     });
     
     varietySelectChange = function () {
@@ -307,31 +302,25 @@
     sizeSelectChange = function () {
         this.size = $("#size option:selected").val();
         console.log(this.size);
-
         
     }
 
     crustSelectChange = function () {
         this.crust = $("#crust option:selected").val();
         console.log(this.crust);
-
-        
+   
     }
 
     toppingsSelectChange = function () {
         this.toppings = $("#toppings option:selected").val();
-        console.log(this.crust);
-
-        
+        console.log(this.crust);   
     }
 
     quantitySelectChange = function () {
         this.quantity = $("#quantity").val();
-        console.log(this.quantity);
-
+        console.log(this.quantity)
         
     }
-    
 
     function getPizza(varietyName, size, crust, toppings, quantity, totalprice) {
         this.varietyName =varietyName;
@@ -341,9 +330,6 @@
         this.quantity = quantity;
         this.total = totalprice;
 
-       
-
-
         $(".checkout").click(function (event) {
             let customerName = $("#customerName").val();
             let customerLocation = $("#customerLocation").val();
@@ -351,8 +337,6 @@
             let totalCost = totalprice + 100;
             $("#form2").toggle();
                 
-
-
                 $("#customerMessage").append(customerName + ' ' + "We are happy to recieve your order, your package will be delivered in an hour's time at " + customerLocation + ", Once we get you the package, you will be contacted throughu" + customerTel + " your spending will be " + totalCost + " and the delivery fee. Enjoy your pizza, Hope you come back soon.");
                
             event.preventDefault();
